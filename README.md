@@ -1,11 +1,12 @@
 # Quick decoupled example of beamforming from USDataRecycler
 
 ## Installation
-Choose your environment and install the required packages.
-```bash
-pip install -r requirements.txt
-```
-Clone the dasIT repository from the usdatarecycler branch into the include directory.
+1. Choose your environment and install the required packages.
+    ```bash
+    pip install -r requirements.txt
+    ```
+   
+2. Clone the dasIT repository from the usdatarecycler branch into the include directory.
 
 ## Usage
 Activate your environment with the required packages,
