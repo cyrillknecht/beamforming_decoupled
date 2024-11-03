@@ -5,7 +5,9 @@ Choose your environment and install the required packages.
 ```bash
 pip install -r requirements.txt
 ```
+Clone the dasIT repository from the usdatarecycler branch into the include directory.
 
+```bash
 ## Usage
 Activate your environment with the required packages,
 go to the repository directory and run the script.
