@@ -1,0 +1,33 @@
+{
+    "grid":{
+        "Nx": 576,
+        "Nz": 856,
+        "dxz_wavelength_ratio": 4,
+        "axial_cutoff": [25, 37]
+        },
+    "medium":{
+        "mean_sound_speed": 1540,
+        "background_density": 1000,
+        "alpha_coeff": 0.54,
+        "alpha_power": 1.5,
+        "scattering_density_resolution_cell": 10,
+        "resolution_cell_size":{
+            "axial": 9,
+            "lateral": 10
+        },
+        "background_scattering_mean_factor": 1.0,
+        "background_scattering_variance_factor": 6.25e-4
+    },
+    "transducer":{
+        "transducer_elements_nr": 192,
+        "element_width_points": 3,
+        "element_distance_points": 0,
+        "center_frequency_hz": 5.2083e6,
+        "samples_per_wavelength": 4,
+        "bandwidth": [3.1325e6,7.2875e6],
+        "input_signal_length_wavelengths": 3,
+        "elevation_focus": 0.028,
+        "tgc_control_points": [1,20,100,250,350,500,500,300,250]
+    }
+    
+}
